@@ -1,0 +1,140 @@
+header{
+    background: #bbbbbb;
+    padding:  20px 0;
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    right: 0;
+    top:110px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+    vertical-align: top;
+}
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.produto{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produto li{
+    display: inline-block;
+    text-align: center;     
+    width: 30%;   
+    vertical-align: top;
+    box-sizing: border-box;
+    padding: 30px 20px;
+    margin: 0 1.5%;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.produto li:hover {
+    border-color:#c78c19;;
+}
+
+.produto li:hover h2{
+    font-size: 34px;    
+}
+
+.titulo_produto{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.produto_descriçao{
+    font-size: 18px;
+    text-align: center;
+}
+.produto_preco{
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    margin: 10px 0 ;
+}
+
+footer{
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px  0;
+}
+.copyright {
+    color: #ffffffff;
+    font-size: 13px;
+    margin: 20px 0 0 ;
+}
+
+.main_formulario{
+    width: 940px ;
+    margin: 0 auto; 
+}
+form{
+    margin: 40px 0;    
+}
+form label , form legend{
+    font-size: 20px;
+    display: block;    
+    margin: 0 0 10px;
+}
+.input_padrao {
+    display: block;
+    width: 50%;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+}
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0 ;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffffff;
+    background-color: #FFA500;
+    transition: 1s all;
+}
+
+.enviar:hover{
+    background-color: #e67e00; 
+    transform: scale(1.2);
+}
+
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+    background: #555;
+    color: #ffffffff;
+    font-weight: bold;
+}
+
+td,th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
